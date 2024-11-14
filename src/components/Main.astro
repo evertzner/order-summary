@@ -1,3 +1,38 @@
-<main>
-  <h1 class='text-center text-2xl'>Welcome to template by Esteban Vertzner</h1>
+<main
+  class='flex w-[327px] flex-col items-center justify-center gap-8 overflow-hidden rounded-[20px] bg-white shadow-[0px_40px_40px_-20px_rgba(13,48,189,0.15)] 2xl:w-[450px] 2xl:gap-11'
+>
+  <img src='/illustration-hero.svg' alt='Hero illustration' />
+  <div class='flex flex-col gap-6 px-6 pb-8 2xl:gap-8 2xl:px-12 2xl:pb-12'>
+    <div class='flex flex-col gap-4 px-2 text-center 2xl:px-0'>
+      <h1 class='pt-2 text-[22px] font-black leading-[normal] text-[#1F2E55] 2xl:text-[28px]'>
+        Order Summary
+      </h1>
+      <p class='text-[15px] leading-[25px] text-[#717FA6] 2xl:text-base 2xl:leading-[26px]'>
+        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you
+        like!
+      </p>
+    </div>
+    <div
+      class='grid grid-cols-[max-content_max-content_1fr] items-center gap-5 self-stretch rounded-xl bg-[#F7F9FF] p-4 2xl:-mt-3 2xl:gap-4 2xl:p-6'
+    >
+      <img src='/icon-music.svg' alt='Icon music' />
+      <div class='flex flex-col items-center gap-0.5 2xl:gap-1.5'>
+        <div class='text-[#1F2E55 text-sm font-black leading-[normal] 2xl:text-base'>
+          Annual Plan
+        </div>
+        <div class='text-sm leading-[normal] text-[#717FA6] 2xl:text-base'>$59.99/year</div>
+      </div>
+      <button
+        class='justify-self-end text-[13px] font-bold leading-[normal] text-[#382AE1] underline hover:text-[#766CF1] 2xl:text-sm'
+        >Change</button
+      >
+    </div>
+    <button
+      class='rounded-xl bg-[#382AE1] py-4 text-[15px] font-black leading-[normal] text-white shadow-[0px_20px_20px_0px_rgba(56,42,225,0.19)] hover:bg-[#766CF1]'
+      >Proceed to Payment</button
+    >
+    <button class='text-[15px] font-black leading-[normal] text-[#717FA6] hover:text-[#1F2E55]'
+      >Cancel Order</button
+    >
+  </div>
 </main>
